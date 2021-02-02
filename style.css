@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 html,
-body {
+.diebruuuuu {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,8 +10,8 @@ body {
 }
 
 .whatyougonnawhat {
-    width: 50%; /* width of container */
-    height: 100%; /* height of container */
+    width: 56%; /* width of container */
+    height: 120%; /* height of container */
     object-fit: cover;
     object-position: 50% 10px; /* try 20px 10px */
 }
@@ -28,8 +28,8 @@ body {
 .bs-upwind button {
     margin: 10px;
     position: absolute;
-    left: 1268.3px;
-    top: 123.7px;
+    left: 380px;
+    top: 957px;
 }
 
 /* Downwind */
@@ -39,15 +39,15 @@ body {
 .bs-downwind button {
     margin: 10px;
     position: absolute;
-    left: 1004.7px;
-    top: 126px;
+    left: 160.5px;
+    top: 959px;
 }
 
 .btn-circle {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     padding: 6px 0px;
-    border-radius: 30px;
+    border-radius: 25px;
     text-align: center;
     font-size: 12px;
     line-height: 1.42857;
