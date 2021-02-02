@@ -52,7 +52,7 @@ html,
     font-size: 12px;
     line-height: 1.42857;
     background-color: transparent;
-    border-color: transparent;
+    border-color: black;
 }
 .btn-circle:hover {
     background-color: transparent;

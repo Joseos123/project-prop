@@ -1,0 +1,53 @@
+.p-instructions {
+  font-family: "Source Code Pro", monospace;
+}
+
+.popover {
+  max-width: 700px;
+}
+
+/* Upwind */
+.bs-upwind {
+  margin: 200px 150px 0;
+}
+.bs-upwind button {
+  margin: 10px;
+  position: absolute;
+  left: 479px;
+  top: 128px;
+}
+
+/* Downwind */
+.bs-downwind {
+  margin: 200px 150px 0;
+}
+.bs-downwind button {
+  margin: 10px;
+  position: absolute;
+  left: 202.3px;
+  top: 127px;
+}
+
+.btn-circle {
+  width: 60px;
+  height: 60px;
+  padding: 6px 0px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+  background-color: transparent;
+  border-color: transparent;
+}
+.btn-circle:hover {
+  background-color: transparent;
+  border-color: transparent;
+}
+.btn-circle:active {
+  background-color: transparent;
+  border-color: transparent;
+}
+.btn-circle:focus {
+  background-color: transparent;
+  border-color: transparent;
+}
