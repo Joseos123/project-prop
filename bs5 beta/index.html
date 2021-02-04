@@ -4,24 +4,71 @@
 		<title>Circuits</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link rel="stylesheet" href="popoverstyle.css">
 		<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
 		<script src="circuitscript.js"></script>
 	</head>
+	
 	<body>
 		<img src="Diagram.svg">
+		
+		<!-- UPWIND -->
 		<div class="bs-upwind">
-			<button type="button" class="btn btn-primary btn-circle" data-toggle="popover" title="Upwind" 
-				data-content="<h5>The Upwind leg is the part of the circuit after take off.</h5><hr><b>RT: cleared for take-off RWY XX, [Callsign]</b><br><b>Steps:</b><ul><li>take off roll<ul><li><b>foot brakes released throttle fully open</b></li></ul></li><li>during take-off checks <b>OR</b> touch and go checks</li><li><b><i>59</i> kts</b> rotate</li><li>initial climb <i><b>65-75 kts</b></i></li><li><b>at <i>200 ft</i></b>, do your after take-off checks</li><li><b>at <i>400 ft</i></b>, do a lookout for any aircraft <b>(safety)</b>. Look right to left for a 03 circuit and left to right for a 21 circuit. <ul><li><b><i>(This is because the pilot sits on the left of the aircraft and would look into a turn)</i></b></li></ul></li><li><b>at <i>500 ft</i></b>, execute a 15-degree climbing turn to heading 120. Continue to maintain the 15-degree angle of bank while turning to the heading. Do NOT change the bank angle to 30 degrees when leveling off.</li></.ul"></button>
+			<button 
+				type="button" 
+				class="btn btn-primary btn-circle" 
+				data-toggle="popover" 
+				title="Upwind" 
+				data-content="
+							<h5>The Upwind leg is the part of the circuit after take off.</h5>
+							<hr>
+							<b>RT: cleared for take-off RWY XX, [Callsign]</b>
+							<br>
+							<b>Steps:</b>
+							<ul>
+								<li>take off roll
+									<ul>
+										<li><b>foot brakes released throttle fully open</b></li>
+									</ul></li>
+								<li>during take-off checks <b>OR</b> touch and go checks</li>
+								<li><b><i>59</i> kts</b> rotate</li>
+								<li>initial climb <i><b>65-75 kts</b></i></li>
+								<li><b>at <i>200 ft</i></b>, do your after take-off checks</li>
+								<li><b>at <i>400 ft</i></b>, do a lookout for any aircraft <b>(safety)</b>. Look <b>right to left</b> for a <b>03 circuit</b> and <b>left to right<b> for a <b>21 circuit</b>. 
+									<ul>
+										<li><b><i>(This is because the pilot sits on the left of the aircraft and would look into a turn)</i></b></li>
+									</ul></li>
+								<li><b>at <i>500 ft</i></b>, execute a 15-degree climbing turn to heading <b>120</b>. Continue to maintain the 15-degree angle of bank while turning to the heading. Do NOT change the bank angle to 30 degrees when leveling off.</li>
+							</ul>">
+			</button>
 		</div>
+		
+		<!-- DOWNWIND -->
 		<div class="bs-downwind">
-			<button type="button" class="btn btn-primary btn-circle" data-toggle="popover" title="Downwind" 
-				data-content="The Downwind leg is the part of the circuit after your first level turn.<br><b>Steps:</b><ul><li>roll out parallel to the runway</li><li>check spacing, reference point, height and speed</li><li><b>RT call, 'callsign, downwind, intentions.'</b></li><li>downwind checks, mixture rich, fuel pump on, fuel quantity green sector</li><li>continue with downwind flying, look out and listen out</li><li>end of downwind, lookout 45 degrees to runway threshold, lower throttle to 1500 RPM, cut the throttle, commence Medium Level Turn to base while maintaining altitude till at heading 120</li></ul><b>Note: only state intentions if you intend to do a full stop.</b><br><i>Reference point: The corner of the threshold that is closest to you.</i>"></button>
+			<button 
+				type="button" 
+				class="btn btn-primary btn-circle" 
+				data-toggle="popover" 
+				title="Downwind" 
+				data-content="
+							<h5>The Downwind leg is the part of the circuit after your first level turn.</h5>
+							<hr>
+							<b>Steps:</b>
+							<ul>
+								<li>roll out parallel to the runway</li>
+								<li>check spacing, reference point, height and speed</li>
+								<li><b>RT call, 'callsign, downwind, intentions.'</b></li>
+								<li>downwind checks, mixture rich, fuel pump on, fuel quantity green sector</li>
+								<li>continue with downwind flying, look out and listen out</li>
+								<li>end of downwind, lookout 45 degrees to runway threshold, lower throttle to 1500 RPM, cut the throttle, commence Medium Level Turn to base while maintaining altitude till at heading 120</li>
+							</ul>
+							<b>Note: only state intentions if you intend to do a full stop.</b>
+							<br>
+							<i>Reference point: The corner of the threshold that is closest to you.</i>">
+			</button>
 		</div>
 	</body>
 </html>
