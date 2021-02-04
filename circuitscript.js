@@ -1,7 +1,8 @@
 			$(document).ready(function(){
 				$('[data-toggle="popover"]').popover({
 					placement : 'right',
-					trigger : 'hover, focus',
+					trigger : 'hover',
+					trigger : 'focus',
 					html : true,
 				});
 			}); 
